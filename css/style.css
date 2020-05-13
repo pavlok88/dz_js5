@@ -1,0 +1,53 @@
+body {
+    padding: 20px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(#81fd4f, #0b8000);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 4px black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    /* line-height:30px; */
+    text-shadow: 0px 0px 4px black;
+    margin: 10px;
+    user-select: none;
+    
+}
+
+button:hover {
+    box-shadow: 0px 1px 6px black;
+}
+
+button:active {
+    background: linear-gradient(#a3ff7f, #59ce50);
+}
+
+.colorBlock{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height:100px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+    cursor: default;
+    user-select: none;
+}
+.blueColor{
+    background: blue;
+}
+div{
+    margin:1px;
+}
